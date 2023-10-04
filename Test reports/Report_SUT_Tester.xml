@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testreport starttime="2023-09-17 11:12:38" timestamp="3.740000" verdicts="5_extended" reportrunstate="TestComplete" abortmode="None" reportuniqueid="733996db-a130-4bfe-b00e-4d05c2837191" measurementid="7353c3cb-e375-4cd0-8bfd-b036e7aaca77">
+  <testunit starttime="2023-09-17 11:12:38" timestamp="3.740000">
+    <testfixture>
+      <testfixture>
+        <testcase starttime="2023-09-17 11:12:48" timestamp="11.680000" tcnumber="1">
+          <verdict time="2023-09-17 11:13:01" timestamp="23.100000" endtime="2023-09-17 11:13:01" endtimestamp="23.100000" result="fail" />
+          <title>Read global SUT information via Diagnostic</title>
+          <testcaseid>612900e8-02e0-4220-ba25-0740d5ea3eaa</testcaseid>
+        </testcase>
+        <title>Seat-Diagnostic</title>
+      </testfixture>
+      <testfixture>
+        <testcase starttime="2023-09-17 11:13:01" timestamp="23.100000" tcnumber="2">
+          <verdict time="2023-09-17 11:13:03" timestamp="25.250188" endtime="2023-09-17 11:13:06" endtimestamp="27.850192" result="pass" />
+          <title>Longitudinal adjustment</title>
+          <testcaseid>7b1eaa4c-7cd3-4757-9bb0-f228ab5ed4cf</testcaseid>
+        </testcase>
+        <testcase starttime="2023-09-17 11:13:06" timestamp="27.850192" tcnumber="3">
+          <verdict time="2023-09-17 11:13:08" timestamp="29.850192" endtime="2023-09-17 11:13:08" endtimestamp="29.850192" result="pass" />
+          <title>Longitudinal-Up and Longitudinal-Down adjustment simultaneous</title>
+          <testcaseid>de1820b2-161e-4e54-bb34-29abeee66aee</testcaseid>
+        </testcase>
+        <title>Seat-Functions</title>
+      </testfixture>
+      <title>Seat Tests</title>
+    </testfixture>
+    <verdict time="2023-09-17 11:13:08" timestamp="29.850192" endtime="2023-09-17 11:13:01" endtimestamp="23.100000" result="fail" />
+    <title>Seat Tester</title>
+    <instancename>SeatTester</instancename>
+    <variantinfo>
+      <variantproperty>
+        <name>SeatVariant</name>
+        <value>Basis</value>
+        <modifiable>true</modifiable>
+      </variantproperty>
+    </variantinfo>
+  </testunit>
+  <verdict time="2023-09-17 11:13:01" timestamp="23.100000" endtime="2023-09-17 11:13:08" endtimestamp="29.850192" result="fail" />
+  <title>SUT Tester</title>
+  <engineer>
+    <xinfo>
+      <name>Windows Login Name</name>
+      <description>AshrafHussein</description>
+    </xinfo>
+    <info>
+      <name>Company</name>
+      <description>Vector Informatik GmbH, Stuttgart</description>
+    </info>
+    <info>
+      <name>Tester name</name>
+      <description>Ashraf</description>
+    </info>
+  </engineer>
+  <testsetup>
+    <xinfo>
+      <name>Version</name>
+      <description>CANoe.ISO11783.J1939.CANopen.CAN.LIN.MOST.FlexRay.J1587.Ethernet.Car2x.AFDX.A429.Scope.SmartCharging [DEMO] 16.6.2 (SP6)</description>
+    </xinfo>
+    <xinfo>
+      <name>Configuration</name>
+      <description>c:\Users\Public\Documents\Vector\CANoe\Sample Configurations 16.6.2\CAN\TestFeatureSet\SeatTest\CANoe\SeatTest.cfg</description>
+    </xinfo>
+    <xinfo>
+      <name>Database Seat on CAN</name>
+      <description>c:\Users\Public\Documents\Vector\CANoe\Sample Configurations 16.6.2\CAN\TestFeatureSet\SeatTest\CANoe\DataSources\Seat.dbc (2021-03-17 13:17:48)</description>
+    </xinfo>
+    <xinfo>
+      <name>Diagnostic Description of Vector_Seat</name>
+      <description>COMMON_DIAGNOSTICS, de-DE, c:\Users\Public\Documents\Vector\CANoe\Sample Configurations 16.6.2\CAN\TestFeatureSet\SeatTest\CANoe\DataSources\kwp2000-seat.cdd</description>
+    </xinfo>
+    <xinfo>
+      <name>Test Configuration</name>
+      <description>SUT Tester</description>
+    </xinfo>
+    <xinfo>
+      <name>Windows Computer Name</name>
+      <description>DESKTOP-GME8OAF</description>
+    </xinfo>
+    <xinfo>
+      <name>Nodelayer Module CANoeILNLVector</name>
+      <description>CANoe Interaction Layer NL (Vector) Version 3.30.102 (Nov  4 2021 07:26:28) , c:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\CANoe_14_0\Exec32\CANoeILNLVector.dll</description>
+    </xinfo>
+    <xinfo>
+      <name>Nodelayer Module osek_tp</name>
+      <description>OSEK_TP (VC15, Version 5.33.80 32bit MSC15.0, Build 80), D:\Programs\Canoe16SP6\Exec32\osek_tp.dll</description>
+    </xinfo>
+    <xinfo>
+      <name>Nodelayer Module CANstress_NL</name>
+      <description>CANstress NodeLayer for CANoe Version 3.1.0, D:\Programs\Canoe16SP6\Exec32\CANstress_NL.dll</description>
+    </xinfo>
+    <xinfo>
+      <name>Nodelayer Module FRstressNL</name>
+      <description>FRstress NL Version 1.0.28, D:\Programs\Canoe16SP6\Exec32\FRstressNL.dll</description>
+    </xinfo>
+    <xinfo>
+      <name>Nodelayer Module J1939TestServiceLibraryNL</name>
+      <description>J1939 Test Service Library for CANoe, Version 16.6.2.0, D:\Programs\Canoe16SP6\Exec32\J1939TestServiceLibraryNL.dll</description>
+    </xinfo>
+    <xinfo>
+      <name>Nodelayer Module C2X_IL</name>
+      <description>Car2x Interaction Layer for Vector CANalyzer.Car2x/CANoe.Car2x, Version 16.6.2, D:\Programs\Canoe16SP6\Exec32\C2X_IL.dll</description>
+    </xinfo>
+  </testsetup>
+  <sut>
+    <info>
+      <name>Supplier</name>
+      <description>Vector Informatik GmbH</description>
+    </info>
+    <info>
+      <name>Day</name>
+      <description>19</description>
+    </info>
+    <info>
+      <name>Month</name>
+      <description>2</description>
+    </info>
+    <info>
+      <name>Year</name>
+      <description>2007</description>
+    </info>
+    <info>
+      <name>Serial Number</name>
+      <description>0</description>
+    </info>
+    <info>
+      <name>Seat Variant</name>
+      <description>Comfort</description>
+    </info>
+  </sut>
+</testreport>
